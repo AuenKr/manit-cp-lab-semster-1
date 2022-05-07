@@ -12,7 +12,7 @@ int main()
     {
         printf("Enter number:");
         scanf("%d", &i);
-        if (i >= 10 & i <= 50)
+        if (i >= 10 && i <= 50)
             count += 1;
     }
     printf("Number of entered number b/w 10 and 50 = %d", count);
