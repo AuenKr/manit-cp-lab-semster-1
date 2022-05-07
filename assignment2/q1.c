@@ -13,7 +13,7 @@ int main()
     int n;
     printf("Enter seat number\n");
     scanf("%d", &n);
-    if (n >= 1 & n <= 72)
+    if (n >= 1 && n <= 72)
     {
 <<<<<<< HEAD
 =======
