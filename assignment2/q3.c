@@ -121,7 +121,7 @@ int main()
     d3 = n % 10;
     num(d1);
     printf(" Hundred ");
-    if (n % 100 >= 10 & n % 100 < 20)
+    if (n % 100 >= 10 && n % 100 < 20)
     {
         num3(d3);
     }
