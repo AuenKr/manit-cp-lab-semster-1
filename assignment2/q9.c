@@ -26,10 +26,10 @@ int main()
     z = pow((x - x1), 2) + pow((y - y1), 2) - pow(r, 2);
 
     if (z > 0)
-        printf("Point lies outside the circle");
+        printf("Point lies outside the circle\n");
     else if (z < 0)
-        printf("Point lies inside the circle");
+        printf("Point lies inside the circle\n");
     else
-        printf("Point lies on the circle");
+        printf("Point lies on the circle\n");
     return 0;
 }
