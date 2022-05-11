@@ -17,6 +17,6 @@ int main()
     printf("Enter Value of N(No. of times interst given in year):");
     scanf("%f", &N);
     CI = P * pow((1 + (R / 100) / N), N * T) - P;
-    printf("Compound Interest for above given data is %.2f", CI);
+    printf("Compound Interest for above given data is %.2f\n", CI);
     return 0;
 }
