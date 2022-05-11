@@ -14,6 +14,6 @@ int main()
     printf("Enter temp in Farenheit:");
     scanf("%f", &F);
     C = ((F - 32) / 9) * 5;
-    printf("Temp %.2f in farenheit = %.2f Centigrade", F, C);
+    printf("Temp %.2f in farenheit = %.2f Centigrade\n", F, C);
     return 0;
 }
