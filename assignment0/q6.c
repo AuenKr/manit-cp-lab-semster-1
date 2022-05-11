@@ -16,18 +16,18 @@ int main()
         printf("Enter temp in Celsius:");
         scanf("%f", &C);
         F = (9 * C) / 5 + 32;
-        printf("Temp %.2f in Celsius = %.2f Fahrenheit", F, C);
+        printf("Temp %.2f in Celsius = %.2f Fahrenheit\n", F, C);
     }
     else if (choice == 2)
     {
         printf("Enter temp in Fahrenheit:");
         scanf("%f", &F);
         C = ((F - 32) / 9) * 5;
-        printf("Temp %.2f in farenheit = %.2f Centigrade", F, C);
+        printf("Temp %.2f in farenheit = %.2f Centigrade\n", F, C);
     }
     else
     {
-        printf("Invalid Choice");
+        printf("Invalid Choice\n");
     }
     return 0;
 }
