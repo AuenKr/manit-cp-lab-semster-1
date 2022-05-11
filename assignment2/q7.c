@@ -18,12 +18,16 @@ int main()
     if (credit == 'Y' || credit == 'y')
     {
         if (T >= N)
-            printf("Thank you\nyour order is placed.");
+            printf("Thank you\nyour order is placed.\n");
         else if (T < N)
-            printf("We have placed %d order of stock , rest %d will we paced asap.", T, N - T);
+            printf("We have placed %d order of stock , rest %d will we paced asap.\n", T, N - T);
     }
     else if (credit == 'N' || credit == 'n')
-        printf("Insufficient credit to place stock order.");
+        printf("Insufficient credit to place stock order.\n");
+    else
+    {
+        printf("Select only from Y/N.\n");
+    }
 
     return 0;
 }
