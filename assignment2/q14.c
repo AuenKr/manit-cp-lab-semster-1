@@ -18,7 +18,7 @@ int main()
     d5 = n % 10;
     rev = d5 * 10000 + d4 * 1000 + d3 * 100 + d2 * 10 + d1;
 
-    printf("%d reverse number is %d", n, rev);
+    printf("%d reverse number is %d\n", n, rev);
 
     return 0;
 }
