@@ -12,13 +12,13 @@ int main()
     printf("Enter number of days late submitted : ");
     scanf("%d", &nods);
     if (nods <= 5)
-        printf("late fee = Rs.%.2f", .5 * nods);
+        printf("late fee = Rs.%.2f\n", .5 * nods);
     else if (nods <= 10)
-        printf("late fee = Rs.%.2f", .5 * 5 + (nods - 5));
+        printf("late fee = Rs.%.2f\n", .5 * 5 + (nods - 5));
     else if (nods <= 30)
-        printf("late fee = Rs.%.2f", .5 * 5 + 5 + 5 * (nods - 10));
+        printf("late fee = Rs.%.2f\n", .5 * 5 + 5 + 5 * (nods - 10));
     else
-        printf("Your membership will be cancelled.");
+        printf("Your membership will be cancelled.\n");
 
     return 0;
 }
