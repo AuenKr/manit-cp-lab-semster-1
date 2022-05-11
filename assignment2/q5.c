@@ -11,12 +11,12 @@ int main()
     scanf("%d %d %d", &a, &b, &c);
 
     if (a >= b && a >= c)
-        printf("%d is greatest", a);
+        printf("%d is greatest\n", a);
 
     else if (b >= c)
-        printf("%d is greatest", b);
+        printf("%d is greatest\n", b);
 
     else
-        printf("%d is greatest", c);
+        printf("%d is greatest\n", c);
     return 0;
 }
