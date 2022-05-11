@@ -17,20 +17,20 @@ int main()
     {
     case 1:
         if (num > 0)
-            printf("%d is positive", num);
+            printf("%d is positive\n", num);
         else if (num < 0)
-            printf("%d is negative", num);
+            printf("%d is negative\n", num);
         else
-            printf("%d is zero", num);
+            printf("%d is zero\n", num);
         break;
     case 2:
         if (num % 2 == 0)
-            printf("%d is even", num);
+            printf("%d is even\n", num);
         else
-            printf("%d is odd", num);
+            printf("%d is odd\n", num);
         break;
     default:
-        printf("Invalid Choice");
+        printf("Invalid Choice\n");
         break;
     }
 
