@@ -12,16 +12,16 @@ int main()
     if (a >= b)
     {
         if (a >= c)
-            printf("%d is greatest", a);
+            printf("%d is greatest\n", a);
         else
-            printf("%d is greatest", c);
+            printf("%d is greatest\n", c);
     }
     else
     {
         if (b >= c)
-            printf("%d is greatest", b);
+            printf("%d is greatest\n", b);
         else
-            printf("%d is greatest", c);
+            printf("%d is greatest\n", c);
     }
     return 0;
 }
