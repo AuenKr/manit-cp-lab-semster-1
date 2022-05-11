@@ -11,6 +11,6 @@ int main()
     scanf("%f",&b);
     printf("Enter value of character\n");
     scanf("%c",&ch);
-    printf("\nInteger = %d, Float = %f and Character = %c", a, b, ch);
+    printf("\nInteger = %d, Float = %f and Character = %c\n", a, b, ch);
     return 0;
 }
