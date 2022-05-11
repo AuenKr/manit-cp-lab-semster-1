@@ -21,7 +21,7 @@ int main()
 >>>>>>> e7e8a877618dce2164de7ceffff67c227216805a
         if (n % 8 == 0)
             printf("Side upper berth\n");
-        else if ((n + 1) % 8 == 0 || (n + 5) % 8 == 0)
+        else if ((n + 1) % 8 == 0)
             printf("side lower Berth\n");
         else if ((n + 7) % 8 == 0 || (n + 4) % 8 == 0)
             printf("Lower Berth\n");
