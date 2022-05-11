@@ -37,6 +37,6 @@ int main()
         sum += a;
     }
 
-    printf("Sum of the series at x=%.2f with %d term is %.5f ", x, n, sum);
+    printf("Sum of the series at x=%.2f with %d term is %.5f\n", x, n, sum);
     return 0;
 }
