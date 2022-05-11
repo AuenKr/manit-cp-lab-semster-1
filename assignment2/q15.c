@@ -15,6 +15,6 @@ int main()
         if (i >= 10 && i <= 50)
             count += 1;
     }
-    printf("Number of entered number b/w 10 and 50 = %d", count);
+    printf("Number of entered number b/w 10 and 50 = %d\n", count);
     return 0;
 }
