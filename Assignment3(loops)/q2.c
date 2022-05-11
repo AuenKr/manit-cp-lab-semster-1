@@ -23,14 +23,14 @@ int main()
             {
                 fact *= i; // fact= fact*i
             }
-            printf("Factorial of %d is %d", n, fact);
+            printf("Factorial of %d is %d\n", n, fact);
         }
         else
-            printf("Factorial of 0 is 1");
+            printf("Factorial of 0 is 1\n");
     }
 
     else
-        printf("number muat be non-negative");
+        printf("number muat be non-negative\n");
 
     return 0;
 }
