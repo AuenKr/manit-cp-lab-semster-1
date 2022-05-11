@@ -16,27 +16,31 @@ int main()
 {
     int age;
     char sex;
-    printf("Are you male or felmale?(M/F)\n");
-    scanf("%c", &sex);
     printf("Enter your age\n");
     scanf("%d", &age);
+    printf("Are you male or felmale?(M/F)\n");
+    scanf("%c", &sex);
     if (sex == 'M' || sex == 'm')
     {
         if (age >= 90)
-            printf("Pension is 4000");
+            printf("Pension is 4000\n");
         else if (age >= 60)
-            printf("Pension is 6000");
+            printf("Pension is 6000\n");
         else if (age < 60)
-            printf("Pension is 0");
+            printf("Pension is 0\n");
     }
     else if (sex == 'F' || sex == 'f')
     {
         if (age >= 90)
-            printf("Pension is 3000");
+            printf("Pension is 3000\n");
         else if (age >= 60)
-            printf("Pension is 5000");
+            printf("Pension is 5000\n");
         else if (age < 60)
-            printf("Pension is 0");
+            printf("Pension is 0\n");
+    }
+    else
+    {
+        printf("Please only select from M/F.\n");
     }
     return 0;
 }
