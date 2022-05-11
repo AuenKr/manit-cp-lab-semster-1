@@ -11,10 +11,10 @@ int main()
     scanf("%d", &y);
 
     if (y % 4 == 0)
-        printf("%d is leap year", y);
+        printf("%d is leap year\n", y);
 
     else
-        printf("%d is not leap year", y);
+        printf("%d is not leap year\n", y);
 
     return 0;
 }
