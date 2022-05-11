@@ -15,7 +15,7 @@ int main()
         d2 = i % 10;
         i2 = d2 * 10 + d1;
         if (i == i2)
-            printf("%d ", i);
+            printf("%d\n", i);
     }
     return 0;
 }
