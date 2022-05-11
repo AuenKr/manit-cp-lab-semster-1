@@ -9,31 +9,31 @@ void num(int d)
     switch (d)
     {
     case 1:
-        printf("One");
+        printf(" One");
         break;
     case 2:
-        printf("Two");
+        printf(" Two");
         break;
     case 3:
-        printf("Three");
+        printf(" Three");
         break;
     case 4:
-        printf("Four");
+        printf(" Four");
         break;
     case 5:
-        printf("Five");
+        printf(" Five");
         break;
     case 6:
-        printf("Six");
+        printf(" Six");
         break;
     case 7:
-        printf("Seven");
+        printf(" Seven");
         break;
     case 8:
-        printf("Eight");
+        printf(" Eight");
         break;
     case 9:
-        printf("Nine");
+        printf(" Nine");
         break;
     default:
         break;
@@ -49,7 +49,7 @@ void num2(int d)
         printf(" Twenty");
         break;
     case 3:
-        printf(" thirty");
+        printf(" Thirty");
         break;
     case 4:
         printf(" Forty");
@@ -130,6 +130,6 @@ int main()
         num2(d2);
         num(d3);
     }
-
+    printf("\n");
     return 0;
 }
