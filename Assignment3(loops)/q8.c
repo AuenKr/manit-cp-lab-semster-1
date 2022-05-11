@@ -35,7 +35,7 @@ int main()
         i += temp;
         count += 1;
     }
-    printf("Sum of the series is %d", sum);
+    printf("Sum of the series is %d\n", sum);
 
     return 0;
 }
