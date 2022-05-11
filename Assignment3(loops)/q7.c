@@ -25,9 +25,9 @@ int main()
             temp += 1;
             i += temp;
         }
-        printf("Sum of the series is %d", sum);
+        printf("Sum of the series is %d\n", sum);
     }
     else
-        printf("Invalid input");
+        printf("Invalid input\n");
     return 0;
 }
