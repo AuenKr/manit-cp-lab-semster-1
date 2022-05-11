@@ -25,7 +25,7 @@ int main()
         a=n/100;
         b=(n%100)/10;
         c=n%10;
-        printf("Sum of individual figits of the number %d is : %d", n, a+b+c);
+        printf("Sum of individual figits of the number %d is : %d\n", n, a+b+c);
     }
     return 0;
 }
