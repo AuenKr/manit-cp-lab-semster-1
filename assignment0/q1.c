@@ -8,6 +8,6 @@ int main()
     printf("\nHow are You?\nI am OK.");   //d
     printf("\nHow are you?\n");           //e
     printf("I am OK.");
-    printf("\nHow are You?\nI am OK.");   //f
+    printf("\nHow are You?\nI am OK.\n");   //f
     return 0;
 }       
