@@ -36,12 +36,12 @@ int main()
             nod += -1;
         }
         if (num == reverse)
-            printf("%d is a palindrome number", num);
+            printf("%d is a palindrome number\n", num);
         else
-            printf("%d is not a palindrome number", num);
+            printf("%d is not a palindrome number\n", num);
     }
     else
-        printf("Invalid input");
+        printf("Invalid input\n");
 
     return 0;
 }
