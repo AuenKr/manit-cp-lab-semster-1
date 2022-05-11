@@ -14,6 +14,6 @@ int main()
     printf("Enter distance in inches:");
     scanf("%f",&i);
     cm=i*2.54;
-    printf("Distance %.2f inches is = %.2f cms",i, cm);
+    printf("Distance %.2f inches is = %.2f cm\n",i, cm);
     return 0;
 }
