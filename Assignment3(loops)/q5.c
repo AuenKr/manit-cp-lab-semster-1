@@ -15,11 +15,12 @@ int main()
 
     for (; count <= n;)
     {
-        printf("%d  ", ib);
+        printf("%d\t", ib);
         temp = ib;
         ib = i;
         i += temp;
         count += 1;
     }
+    printf("\n");
     return 0;
 }
