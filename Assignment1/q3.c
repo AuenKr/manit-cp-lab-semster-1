@@ -15,6 +15,6 @@ int main()
     printf("Enter two values to be swapped:");
     scanf("%d %d", &a, &b);
     printf("Values entered are a=%d and b=%d\n", a, b);
-    printf("Values after swap are a=%d and b=%d", b, a);
+    printf("Values after swap are a=%d and b=%d\n", b, a);
     return 0;
 }
