@@ -14,11 +14,11 @@ int main()
         d3 = n % 100 / 10;
         d4 = n % 10;
         reverse = d4 * 1000 + d3 * 100 + d2 * 10 + d1;
-        printf("Reverse of %d is %d", n, reverse);
+        printf("Reverse of %d is %d\n", n, reverse);
     }
     else
     {
-        printf("Please enter 4 digit no only.");
+        printf("Please enter 4 digit no only.\n");
     }
     return 0;
 }
