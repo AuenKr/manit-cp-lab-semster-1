@@ -1,0 +1,3 @@
+/*
+Program to find Maximum and minimum of two numbers without using any loop or condition.
+*/
