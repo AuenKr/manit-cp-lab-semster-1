@@ -28,7 +28,7 @@ int main()
     si = p * r * t / 100;
     printf("Simple interest on Rs. 500000.00 in 10 years = Rs. %.2f\n", si);
     printf("Interest on Rs. 500000.00 in 10 years compounded annually = Rs. %.2f\n", CI(1) - p);
-    printf("Interest on Rs. 500000.00 in 10 years compounded semi anually = Rs. %.2f\n", CI(20) - p);
+    printf("Interest on Rs. 500000.00 in 10 years compounded semi anually = Rs. %.2f\n", CI(2) - p);
     printf("Interest on Rs. 500000.00 in 10 years compounded quaterly = Rs. %.2f\n", CI(4) - p);
     printf("Interest on Rs. 500000.00 in 10 years compounded monthly = Rs. %.2f\n", CI(12) - p);
     printf("Interest on Rs. 500000.00 in 10 years compounded daily = Rs. %.2f\n", CI(365) - p);
