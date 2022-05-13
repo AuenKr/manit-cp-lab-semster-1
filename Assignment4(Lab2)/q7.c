@@ -29,7 +29,7 @@ int DTB1(float d)
         q = q * 2;
     }
 
-    printf("Binary equivalent of decimal number %f is %f", d, bf);
+    printf("Binary equivalent of decimal number %f is %f\n", d, bf);
 }
 
 int main()
@@ -40,7 +40,7 @@ int main()
     if (num >= 0 && num <= 1)
         DTB1(num);
     else
-        printf("Entered number is not a +ve decimal fraction less than 1");
+        printf("Entered number is not a +ve decimal fraction less than 1\n");
   
     return 0;
 }

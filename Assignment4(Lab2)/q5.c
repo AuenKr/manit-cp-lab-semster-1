@@ -25,9 +25,9 @@ int main()
             sum += temp;
             num /= 10;
         }
-        printf("Sum of the digits of %d is %d", num1, sum);
+        printf("Sum of the digits of %d is %d\n", num1, sum);
     }
     else
-        printf("Entered number is out of range");
+        printf("Entered number is out of range\n");
     return 0;
 }

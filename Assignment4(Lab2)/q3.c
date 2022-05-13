@@ -31,7 +31,7 @@ int main()
     else
         mim = n4;
 
-    printf("Difference ia %.4f", max - mim);
+    printf("Difference ia %.4f\n", max - mim);
 
     return 0;
 }

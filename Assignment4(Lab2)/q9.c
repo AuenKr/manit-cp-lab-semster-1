@@ -10,8 +10,8 @@ int main()
     printf("Enter a number :");
     scanf("%d", &num);
     if (num % 4 == 0)
-        printf("%d is divisible by 4", num);
+        printf("%d is divisible by 4\n", num);
     else
-        printf("%d is not divisible by 4", num);
+        printf("%d is not divisible by 4\n", num);
     return 0;
 }
