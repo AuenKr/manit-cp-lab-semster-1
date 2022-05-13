@@ -11,3 +11,36 @@ Enter a +ve decimal fraction less than 1: 0.525
 Binary equivalent of 0.525000 is 0.1000...
 
 */
+
+#include <stdio.h>
+#include <math.h>
+
+
+int DTB1(float d)
+{
+    
+    float bf=0, q=d;
+    int r;
+
+    for (int i = 0; i <= 4; i++)
+    {
+        r = (int)q % 2;
+        bf += r * pow(10, i*(-1));
+        q = q * 2;
+    }
+
+    printf("Binary equivalent of decimal number %f is %f", d, bf);
+}
+
+int main()
+{
+    float num;
+    printf("Enter a +ve decimal fraction less than 1: ");
+    scanf("%f", &num);
+    if (num >= 0 && num <= 1)
+        DTB1(num);
+    else
+        printf("Entered number is not a +ve decimal fraction less than 1");
+  
+    return 0;
+}

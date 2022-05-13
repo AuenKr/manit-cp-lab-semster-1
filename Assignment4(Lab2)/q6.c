@@ -11,28 +11,62 @@ Enter a +ve no less than 32: 35
 Entered number is out of range
 */
 
+#include <stdio.h>
 #include <math.h>
 
-#include <stdio.h>
+// Approach 1 : without using array
 
-int NTB(int num)
+int DTB1(int d)
 {
-    int bn[5], bn2[5], r, q, i=0;
-    while (num>=0)
+    int b = 0, r, q;
+    q = d;
+
+    // formed binary form in reverse direction
+    for (int i = 0; i <= 4; i++)
     {
-        q=num/2;
-        r=num%2;
-        bn[i]=r;
-        num=q;
-        i++;
-        printf("%s", bn[i]);
+        r = q % 2;
+        q = q / 2;
+        b += r * pow(10, i);
     }
-    
+
+    printf("Binary equivalent of decimal number %d is %05d", d, b);
+}
+
+// Approach 2: using array
+int DTB2(int d)
+{
+    int br[5], b[5], r, q;
+    q = d;
+
+    // formed binary form in reverse direction
+    for (int i = 0; i <= 4; i++)
+    {
+        r = q % 2;
+        q = q / 2;
+        br[i] = r;
+    }
+    // make corret binary form
+
+    for (int j = 0, i = 4; j <= 4 & i >= 0; j++, i--)
+    {
+        b[j] = br[i];
+    }
+    // printing each element of binary
+    printf("Binary equivalent of decimal number %d is ", d);
+    for (int j = 0; j <= 4; j++)
+    {
+        printf("%d", b[j]);
+    }
 }
 
 int main()
 {
-   // int bn[], i;
-    NTB(2);
+    int num;
+    printf("Enter a +ve no less than 32: ");
+    scanf("%d", &num);
+    if (num>0 && num<=32)
+        DTB1(num);
+    else
+        printf("Entered number is out of range\n");
     return 0;
 }
