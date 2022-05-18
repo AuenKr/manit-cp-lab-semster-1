@@ -1,8 +1,8 @@
 /*
-Write a C program that asks the user to enter a positive integer n less than 10. If the user
-enters an invalid input, the code repeats the command of asking the user for a positive
-integer less than 10 until the input is correct. It then prints out the sum of the first n terms of
-the series 14 + 24 + 44 + 74 + 114 +···.
+Write a C program that asks the user to enter a positive integer n less than 10.
+If the user enters an invalid input, the code repeats the command of asking the user
+for a positive integer less than 10 until the input is correct.
+It then prints out the sum of the ﬁrst n terms of the series 1^4 + 2^4 + 4^4 + 7^4 + 11^4 +···.
 Test data and expected output:
 Enter a +ve integer less than 10: 0
 Invalid input, enter again: 4
