@@ -43,8 +43,10 @@ int main()
         printf("Grade is 8\n");
     else if (c1 && c3)
         printf("Grade is 7\n");
-    else 
+    else if (c1 || c2|| c3)
         printf("Grade is 6\n");
+    else
+        printf("Grade is 5\n");
 
     return 0;
 }
